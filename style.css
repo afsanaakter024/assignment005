@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px 87px 0 #C9E0FF;
+}
+
+/*header start*/
+header{
+	background-color:white;
+	width: 100%;
+	
+
+}
+.wrapper {
+	overflow: hidden;
+	width: 95%;
+	margin: 0 auto;
+    
+
+
+}
+
+.logo {
+	overflow: hidden;
+	width:35%;
+	float: left;
+    
+
+}
+.logo img{
+	float: left;
+	width: 15%;
+}
+.logo h1{
+	float: left;
+    width: 70%;
+    margin-top: 14px;
+    color: #465461;
+
+}
+
+
+.menu {
+	margin-top:-23px;
+	width: 70%;
+	float:  right;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+    margin-top: -23px;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color:#818890;
+	padding: 0px 20px;
+	transition:.5s;
+	display: block;
+    margin-left: 44px;
+}
+.menu ul li a:hover{
+	color: #00788D;
+}
+.menu ul li :last child a{
+	padding-right: 0;
+}
+
+/* header end */
+.banner{
+	
+	background-image: url(./images/man-and-woman-riding-green-bicycle-3690665.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+.wrapper1{
+	width: 80%;
+	
+	overflow: hidden;
+
+}
+.content{
+	width: 30%;
+	margin-top: 200px;
+	margin-bottom: 90px;
+	background-color: rgba(98,98,106,0.5);
+	margin-left: 5px;
+}
+.content h2{
+     font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin-left: 25px;
+}
+.content h3{
+	margin-left: 25px;
+	font-family: sans-serif;
+    font-size: 43px;
+    color: white;
+    
+}
+.content p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 5px 0px 20px 25px;
+    line-height: 30px;
+
+}
+.content button{
+    margin-left: 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    width: 133px;
+    height: 30px;
+    background-color: #40424F;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+.service{
+	width: 100%;
+}
+.single{
+	width: 21%;
+	
+	float: left;
+	margin-left: 121px;
+    margin-right: 4px;
+
+}
+.single h2{
+     margin-left: 46px;
+    color: #C6C2BF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.house{
+	
+}
+.house img{
+	width: 100%;
+}
+.house p{
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+
+.house button{
+	margin-left: 79px;
+    width: 84px;
+    border: none;
+    border-radius: 5px;
+   margin-top: 50px;
+    margin-bottom: 50px;
+    height: 26px;
+    background-color: #3D5778;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+footer{
+	width:100%; 
+}
+.last{
+
+}
+.last p{
+
+    margin-left: 460px;
+    margin-top: 65px;
+   
+    line-height: 36px;
+    color: #7A838A;
+}
+.fb{
+	margin-left: 500px;
+	margin-bottom: 40px;
+}
+.fb img{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 11px;
+    margin-top: 14px;
+}
